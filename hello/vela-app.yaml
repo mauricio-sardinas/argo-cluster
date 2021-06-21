@@ -1,0 +1,17 @@
+apiVersion: core.oam.dev/v1beta1
+kind: Application
+metadata:
+  name: hello-world-argo
+spec:
+  components:
+    - name: express-server-hello-argo
+      type: webservice
+      properties:
+        image: ghcr.io/mauricio-sardinas/docker-hello-world:master
+        port: 8000
+      traits:
+        - type: ingress
+          properties:
+            domain: testsvc.example.com
+            http:
+              "/": 8000
