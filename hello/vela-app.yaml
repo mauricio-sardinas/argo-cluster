@@ -7,7 +7,7 @@ spec:
     - name: express-server-hello-argo
       type: webservice
       properties:
-        image: ghcr.io/mauricio-sardinas/docker-hello-world:v1.0.9-0
+        image: ghcr.io/mauricio-sardinas/docker-hello-world:v1.0.10
         port: 8000
       traits:
         - type: ingress
