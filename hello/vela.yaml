@@ -13,5 +13,5 @@ spec:
         - type: ingress
           properties:
             http:
-              domain: "*"
+              domain: "​​k8s-default-platform-a28b35b4fb-312984199.us-east-1.elb.amazonaws.com"
               "/": 8000
