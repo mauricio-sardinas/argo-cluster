@@ -7,7 +7,7 @@ spec:
     - name: express-server-hello-argo
       type: webservice
       properties:
-        image: 002917533551.dkr.ecr.us-east-1.amazonaws.com/ea-platform/mauricio-sardinas/docker-hello-world:1.0.9-41.0.9-1
+        image: 002917533551.dkr.ecr.us-east-1.amazonaws.com/ea-platform/mauricio-sardinas/docker-hello-world:1.0.9-5
         port: 8000
       traits:
         - type: ingress
